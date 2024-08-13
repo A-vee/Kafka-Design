@@ -1,0 +1,335 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: dark;
+    src: url(Heading-Now-Variable.ttf);
+}
+@font-face {
+    font-family: white;
+    src: url(CoreSansA55Medium.ttf);
+}
+nav
+{
+    background-color: #000;
+    z-index: 10;
+    position: fixed;
+    height: 12vh;
+    cursor: pointer;
+    width:100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+   
+}
+nav-text
+{
+    font-family:"Core Sans A 55 Medium";
+    font-size: 2vw;
+    font-weight: 300;
+    color: #f4c2c2;
+}
+#search 
+{
+    padding:0px 20px;
+width: 50%;
+align-items: center;
+display: flex;
+font-family:"Core Sans A 55 Medium";
+border-radius: 10px;
+justify-content:space-between;
+font-size: 0.9vw;
+height: 6vh;
+
+cursor: pointer;
+color: #ffffff58;
+background: #525050a4;
+}
+#search i
+{
+    color: #f4c2c2;
+}
+#search input
+{
+    margin: 10px;
+    color: #ffffff58;
+background: none;
+border: none;
+    width: 100%;
+    
+}
+nav button
+{
+   background-color: #ffffff00;
+    height:30px;
+    width:70px;
+    font-family:"Core Sans A 55 Medium";
+    border: none;
+   font-size: 1.1vw;
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+
+ button:nth-child(4)
+{
+    height:40px;
+    width:90px;
+    font-family:"AMERTA";
+    font-size: 1.5vw;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    color:#000 ;
+    outline: none;
+    background-color: #f4c2c2;
+    cursor: pointer;
+}
+ button:nth-child(5)
+{
+    height:40px;
+    width:140px;
+    font-family:"Core Sans A 55 Medium";
+    font-size: 1.3vw;
+   
+    border: #ffb2b2a5 3px solid;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    outline: none;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+#page1 
+{
+    height: 100vh;;
+    width:100%;
+   
+}
+.top
+{
+    height:50vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width:100%;
+   flex-direction: column;
+   
+    color: aliceblue;
+}
+.top h5
+{
+    
+    font-size: 2rem;
+    align-items: center;
+    justify-content: right;
+    rotate: -3deg;
+    color:#f4c2c2;
+    font-weight: 200;
+    letter-spacing: 0.2rem;
+    font-family:white;
+    
+}
+.top span
+{
+    color:#ffffff55;
+    letter-spacing: 0.1rem;
+    font-weight:100;
+    
+}
+.top h1
+{
+    line-height: 13rem;
+    font-size: 12rem;
+    rotate: -3deg;
+    margin-top: 50vh;
+    font-family: dark;
+    font-stretch: 500%;
+}
+.sidebar
+{
+    position: absolute;
+    height:35vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top:35%;
+    font-family: white ;
+    width:4rem;
+    border-radius: 2%;
+    background-color:#f4c2c2b0;;
+}
+.sidebar h1
+{
+    display: flex;
+    rotate: 90deg;
+   color: aliceblue;
+    
+}
+#page2 
+{
+   height:100vh;
+   margin-top: -10vh;
+   width:100%; 
+   justify-content: center;
+   display: flex;
+   align-items: center;
+}
+#page2 .rounded
+{
+
+    height:80vh;
+    width:85%;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid #e3dfdf;
+
+}
+.rounded video
+{
+    
+    opacity: 0.3;
+height:100%;
+width:100%;
+border-radius: 2rem;
+object-fit: cover;
+
+}
+.rounded .text
+{
+    position: absolute;
+    height:70vh;
+z-index: 2;
+    justify-content: space-between;
+   display: flex;
+   align-items: center;
+    width:80%;
+   
+}
+.text #round
+
+{margin-left: 2rem;
+width:21rem;
+background-color: #e3dfdf;
+height:47vh;
+justify-content: center;
+align-items: center;
+display: flex;
+z-index: 2;
+border: 1px #f4c2c2 solid;
+border-spacing:4cm;
+border-radius: 50rem;
+}
+#round img
+{
+    object-fit: cover;
+    
+  
+    height:45vh;
+    width:20rem;
+    border-radius: 50rem;
+}
+.text #about
+{
+    justify-content: center;
+    color: yellow;
+}
+#about h1
+{
+    text-align: center;
+    font-family: dark;
+    font-size: 4rem;
+    color: #e3dfdf;
+    font-stretch: 500%;
+}
+#about h5
+{ 
+    margin-top: 1rem;
+    padding-left: 5rem;
+    line-height: 1.9rem;
+    text-transform: capitalize;
+    font-family: dark;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #f4c2c2;
+    font-stretch: 500%;
+}
+
+#about h4
+{
+  padding-left: 41.2rem;
+    line-height: 0.1rem;
+    text-transform: capitalize;
+    font-family: dark;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #ffffff;
+    letter-spacing: 0.1rem;
+    font-stretch: 500%;
+}
+h3
+{
+    padding-left: 41rem;
+   
+    text-transform: capitalize;
+    font-family:"AMERTA";
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    color: aliceblue;
+    letter-spacing: 0.1rem;
+    
+}
+
+.footer {
+    position: relative;
+    color: #fff;
+    width: 100%;
+    height:30vh;
+    font-family: "white";
+    border-radius: 6px;
+  }
+  .footer .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3.5rem;
+    padding: 60px;
+  }
+  .footer-row .footer-col h4 {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  .footer-col .links {
+    margin-top: 20px;
+  }
+  .footer-col .links li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  .footer-col .links li a {
+    text-decoration: none;
+    color: #bfbfbf;
+  }
+  .footer-col .links li a:hover {
+    color: #fff;
+  }
+ 
+  
+  .footer-col .icons {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    cursor: pointer;
+  }
+  .footer-col .icons i {
+    color: #afb6c7;
+  }
+  .footer-col .icons i:hover  {
+    color: #fff;
+  }

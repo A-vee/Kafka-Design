@@ -1,0 +1,332 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: dark;
+    src: url(Heading-Now-Variable.ttf);
+}
+@font-face {
+    font-family: white;
+    src: url(CoreSansA55Medium.ttf);
+}
+nav
+{
+    background-color: #000;
+    z-index: 10;
+    position: fixed;
+    height: 12vh;
+    cursor: pointer;
+    width:100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+   
+}
+nav-text
+{
+    font-family:"Core Sans A 55 Medium";
+    font-size: 2vw;
+    font-weight: 300;
+    color: #f4c2c2;
+}
+#search 
+{
+    padding:0px 20px;
+width: 50%;
+align-items: center;
+display: flex;
+font-family:"Core Sans A 55 Medium";
+border-radius: 10px;
+justify-content:space-between;
+font-size: 0.9vw;
+height: 6vh;
+
+cursor: pointer;
+color: #ffffff58;
+background: #525050a4;
+}
+#search i
+{
+    color: #f4c2c2;
+}
+#search input
+{
+    margin: 10px;
+    color: #ffffff58;
+background: none;
+border: none;
+    width: 100%;
+    
+}
+nav button
+{
+   background-color: #ffffff00;
+    height:30px;
+    width:70px;
+    font-family:"Core Sans A 55 Medium";
+    border: none;
+   font-size: 1.1vw;
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+
+ button:nth-child(4)
+{
+    height:40px;
+    width:90px;
+    font-family:"AMERTA";
+    font-size: 1.5vw;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    color:#000 ;
+    outline: none;
+    background-color: #f4c2c2;
+    cursor: pointer;
+}
+ button:nth-child(5)
+{
+    height:40px;
+    width:140px;
+    font-family:"Core Sans A 55 Medium";
+    font-size: 1.3vw;
+   
+    border: #ffb2b2a5 3px solid;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    outline: none;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+
+.page1
+{
+    height:100vh;
+    width:100%;
+
+}
+.top
+{
+    height:50vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width:100%;
+   flex-direction: column;
+   
+    color: black;
+}
+.top h5
+{
+    
+    font-size: 2rem;
+    align-items: center;
+    justify-content: right;
+    rotate: -3deg;
+    color:#f4c2c2;
+    font-weight: 200;
+    letter-spacing: 0.2rem;
+    font-family:white;
+    
+}
+.top span
+{
+    color:#514c4c93;
+    letter-spacing: 0.1rem;
+    font-weight:100;
+    
+}
+.top h1
+{
+    line-height: 13rem;
+    font-size: 12rem;
+    rotate: -2deg;
+    margin-top: 50vh;
+    font-family: dark;
+   
+    font-stretch: 500%;
+}
+.sidebar
+{
+    position: absolute;
+    height:35vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top:35%;
+    font-family: white ;
+    width:4rem;
+    border-radius: 2%;
+    background-color:#f4c2c2f3;;
+}
+.sidebar h1
+{
+    display: flex;
+    rotate: 90deg;
+    letter-spacing: 0.2rem;
+   color: rgb(37, 37, 38);
+    
+}
+#page2
+{
+    
+    justify-content: center;
+    align-items: center;
+    height:80vh;
+    width:100%;
+   
+}
+#c-photo
+{
+    margin-top: 50px;
+    height: 100%;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#c-text
+{
+    height: 100%;
+    background-color:#f4c2c2;
+    width:20%;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:20px ;
+   display: flex;
+   justify-content: center
+   
+   ;
+   align-items: center;
+}
+#c-text h3
+{
+    text-align: center;
+    text-transform: uppercase;
+    color: aliceblue;
+    background-color: none;
+    font-size: 5.5vw;
+   font-weight: 799;
+    font-family: 'HeadingNowVar'; 
+    white-space:nowrap;
+    font-stretch: 450%;
+    transform: rotate(90deg);
+}
+#cover2
+{
+    height:100vh;
+    width:100%;
+    display:flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+#cover2 #creator
+{
+    margin-top: 50px;
+    height:100%;
+    width:96%;
+    display:flex;
+   
+    align-items: center;
+    justify-content: space-between;
+}
+#c1
+{
+    margin-top:-200px;
+    border-radius: 20px;
+    width:30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+}
+#pf
+        {
+            height:43vh;
+            width:90%;
+            border-radius: 600px;
+            border: 8px solid #000000c9;
+        }
+        #pf img
+        {
+            object-fit: cover;
+            height: 100%;
+            opacity: 0.8;
+            width:100%;
+            border-radius: 600px;
+        }
+        #pf img:hover
+        {
+            cursor: pointer;
+            opacity: 1;
+            transition: 0.2s linear;
+        }
+        #icon
+        {
+           display: flex;
+           justify-content: center;
+           align-items: center; 
+           gap:10px; 
+            height:15vh;
+            cursor: pointer;
+            width: 100%;
+        }
+        .footer {
+            margin-top: 100px;
+          position: relative;
+          color: #ff9393;
+          width: 100%;
+          font-family: "Core Sans A 55 Medium";
+          background-color: black;
+          
+          
+        }
+        .footer .footer-row {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          gap: 3.5rem;
+          padding: 60px;
+        }
+        .footer-row .footer-col h4 {
+        
+            
+            color: #ff9393;
+          font-size: 1.4rem;
+          font-weight: 400;
+        }
+        .footer-col .links {
+          margin-top: 20px;
+        }
+        .footer-col .links li {
+          list-style: none;
+          margin-bottom: 10px;
+        }
+        .footer-col .links li a {
+          text-decoration: none;
+          color: #fff;
+        }
+        
+        
+        .footer-col .icons {
+          display: flex;
+          margin-top: 30px;
+          justify-content:space-between;
+          align-items: center;
+          gap: 2rem;
+          list-style: none;
+          cursor: pointer;
+        }
+        .footer-col .icons i {
+          color: #000000;
+          font-size: 2rem;
+           
+        }
